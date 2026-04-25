@@ -1,0 +1,16 @@
+import java.io.*;
+import java.util.*;
+
+public class java_int_to_string {
+
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        int n = sc.nextInt();
+        String s = Integer.toString(n);
+        if(s instanceof String){
+            System.out.println("Good job");
+        }
+        else
+        System.out.println("Wrong answer");
+    }
+}
